@@ -1,3 +1,13 @@
+<meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'none';
+        img-src 'self' https://raw.githubusercontent.com data:;
+        style-src 'self' 'unsafe-inline';
+        font-src 'self' data:;
+        object-src 'none';
+        frame-ancestors 'self';
+        base-uri 'self';
+      ">
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Vrstva_1" data-name="Vrstva 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280.63 595.28">
   <defs>
@@ -469,4 +479,5 @@
   <image width="229" height="154" transform="translate(24.56 68.51) scale(.5)" xlink:href="https://raw.githubusercontent.com/MartinZemanek/icons/main/LP/traktory/fr/1.jpg"/>
   <image width="231" height="154" transform="translate(24.05 272.56) scale(.5)" xlink:href="https://raw.githubusercontent.com/MartinZemanek/icons/main/LP/traktory/fr/4.jpg"/>
   <image width="231" height="154" transform="translate(24.09 374.5) scale(.5)" xlink:href="https://raw.githubusercontent.com/MartinZemanek/icons/main/LP/traktory/fr/5.jpg"/>
+  
 </svg>
